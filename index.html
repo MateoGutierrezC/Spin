@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<center>
+<h1>SPIN</h1>
+<p class="lives" id="lives">10</p>
+    <div class="main-container">
+        
+        <div class="cards">
+            <ul>
+                <ul><input type="text" class="numbers" id="firstNumber" readonly></ul>
+                <ul><input type="text" class="numbers" id="secondNumber" readonly></ul>
+                <ul><input type="text" class="numbers" id="thirdNumber" readonly></ul>
+            </ul>
+            <input type="submit" value="Play" onclick="randm()" id="play">
+        </div>
+    </div>
+    <a href="index.html"><input class="newGame" type="submit" value="New Game"></a>
+        <p class="scores" id="score">Tu puntaje es : 0</p>
+</center>
+<div class="score">
+    <h2> Reglas de puntaje</h2>
+    <p>Si los 3 numeros son 7 ganas automaticamente</p>
+    <p>Si los 3 numeros son iguales pero diferentes a 7 ganas 80 puntos</p>
+    <p>Si 2 numeros son iguales a 7 ganas 50 puntos</p>
+    <p>Si 2 numeros son iguales pero diferentes a 7 ganas 30 puntos</p>
+    <p>Si todos los  numeros son diferentes ganas 0 puntos</p>
+<br>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+body{
+background-color: black;
+}
+
+h1{
+font-family: 'Nabla', cursive;
+color: red;
+font-size: 80px;
+}
+
+.lives{
+padding: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+width: 30px;
+font-weight: 1000;
+color: black;
+background-color: yellow;
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+-ms-border-radius:10px;
+-o-border-radius:10px;
+}
+
+.main-container {
+ color: red;
+ width: 500px;
+ height: 500px;
+ background-color: gray;
+opacity: 0.8;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+}
+
+.main-container .cards ul{
+display: flex;
+justify-content: space-around;
+}
+
+.main-container .cards ul .numbers {
+width: 80px;
+height: 80px;
+transform: translateX(-40px);
+text-align: center;
+}
+
+
+.main-container input{
+padding: 10px;
+font-family: 'Nabla', cursive;
+font-size: 50px;
+font-weight: 1000;
+background-color: red;
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+-ms-border-radius:10px;
+-o-border-radius:10px;
+}
+
+.newGame{
+padding: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-weight: 1000;
+background-color: yellow;
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+-ms-border-radius:10px;
+-o-border-radius:10px;
+}
+
+.score{ 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 20px; 
+text-align: center;
+background-color: gray;
+} 
+
+.score h2 {
+color: yellow;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 1000px;
+}
+
+.scores{ 
+padding: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: red;
+border-radius: 10px; 
+color: white;
+width: 150px;
+border: solid 2px black; 
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px; 
+-ms-border-radius: 10px;
+-o-border-radius: 10px;
+}
